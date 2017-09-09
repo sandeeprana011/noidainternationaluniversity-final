@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Noida International University</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">About NIU</string>
+    <string name="title_section3">Schools</string>
+    <string name="title_section4">Academics &amp; Fee</string>
+    <string name="title_section5">Admission @ NIU</string>
+    <string name="title_section6">Contact Us</string>
+    <string name="title_section7">Study Material</string>
+    <string name="title_section8">Latest Announcements</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="list_title">Downloadable Files</string>
+    <string name="refresh">Refresh</string>
+    <string name="exit">Exit</string>
+    <string name="about_devs">About Developers</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="about_us_description">This Application is not officially launched by Noida International University. \n This application is maintained by students of Noida International University pursuing in B.Tech 4th Year. Students, who are interested in developing android Apps can support us for further development of the Application.</string>
+    <string name="email">sandeep.rana011@gmail.com</string>
+    <string name="dev_name">Sandeep Rana,\nSonu Raghav \n \t \&amp; \n Manish Saraswat</string>
+    <string name="mobile">+91\-8439740563</string>
+    <string name="mobile2">+91\-9891255422</string>
+    <string name="sirfirey_devs">Sirfirey Devs</string>
+    <string name="facebook_link">http://www.facebook.com/sandeep.rana011</string>
+    <string name="help_app">This application is especially developed for the students of Noida International University. By using this application students can download their specific class Notes and useful Files in just a \"Single Click\". </string>
+    <string name="app_use">Application Uses</string>
+    <string name="help">Help</string>
+    <string name="address_niu">Noida International University Campus:\nPlot 1, Sector-17 A, \nYamuna Expressway,\nGautam Budh Nagar, UP, \nINDIA (203201)</string>
+    <string name="icon_desc">Buttons Descriotion</string>
+    <string name="icon_des_help">-Opens Help.</string>
+    <string name="icon_des_exit">-Exits application.</string>
+    <string name="icon_des_about_us">-Opens About Us screen.</string>
+    <string name="icon_des_share">-Opens share application window.</string>
+    <string name="icon_des_refresh">-Refresh content List.</string>
+    <string name="icon_des_find">-Content Finder</string>
+    <string name="icon_des_home">-Home Button.</string>
+    <string name="title_activity_text_file_view">Text File</string>
+    <string name="title_activity_main_screen">Home</string>
+    <string name="title_activity_activity_load_text">Activity_loadText</string>
+    <string name="title_activity_about_niu">AboutNIU</string>
+    <string name="why_niu">\tWhy Noida International University? The answer is why not? When celebrated names in the teaching faculty, professors, eminent scholars, scientist and renowned academicians from all over the world are part of the academic council, academic team and faculty members should there be any other reason to choose some other educational institutions?
+\n\n\tNIU offers international as well as domestic students one of the most inviting places to pursue their careers. Offering possibly the widest range of graduate and undergraduate courses to choose from, NIU also enhances the learning experiences with access to a state of the art electronic library, IT infrastructure, easy educational loans and scholarship and a very friendly and supportive educational staff.\n\n\tAlso apart from offering the best in educational services, NIU also assists students by offering them a wide range of accommodation to choose from.\n\n\tAnd then there is always the world class sports facilities and the coolest cafeteria to hang out and decide whether any other universities would match up to such standards\n</string>
+    <string name="vc_message">\tAs Vice Chancellor of Noida International University I am delighted to extend a very warm welcome to you. Choosing a university is one of the most important decisions you will make in your life and will be influenced by many factors such as the reputation of the University, its location, and facilities.
+\n\n\t
+Noida International University is situated within the city of Gautam Budh Nagar, which is a vibrant multicultural city that has scripted its own success story. The city offers a large choice of cultural activities.
+\n\n\t
+Education is about much more than employability. It includes evolving with a different view, developing different perspectives and opening your mind to the possibilities and emerging as world class championship material. The balance of theory and practice at the University, incorporating the key relationships we hold with local, national and international partners, will prepare you for chosen careers.
+\n\n\t
+Noida International University will give you the ability, self-confidence and the desire to go on learning for the rest of your life and to cope with new situations. Studying at Noida International University will give you the skills and knowledge to open up the opportunities that come from having a receptive and enquiring mind.
+\n\n\t
+Noida International University provides an orientation programme to help you settle into your new home and our dedicated team at the Admissions Office and Student Services will do all they can assist you.
+\n\n\t
+I wish you every success and we look forward to welcoming you to Noida International University in the near future.</string>
+    <string name="our_foundation">\t
+The hallmark of Noida International University (NIU) is its celebrated academic team, academic council and faculty members. In fact, NIU is the centre where finest minds from the most revered institutions of the country and abroad congregate to share their expertise and pursue knowledge.
+\n\n\t
+NIU celebrates the diversity of knowledge among its scholars and their expertise in their fields to interdisciplinary challenges that cross traditional academic boundaries. The NIU faculty harmoniously blends scholarly research with dynamic classroom teaching.</string>
+    <string name="grow_up">\t
+An internationally acclaimed teaching fraternity, competitive courses, international students, a world class campus and the joy of discovering one of the richest and most enchanting cultures of the world, welcome to Noida International University (NIU).
+\n\n\t
+Located in one of the most promising economic districts of the country and situated in NCR Delhi, the Noida International University (NIU) offers infinite opportunities for self motivated individuals for their intellectual, personal and professional development.
+\n\n\t
+As the focus is on learning, NIU offers students international facilities for a rich and interactive personalised learning expereince, a one-on-one interaction with some of the most respected and highly acclaimed masters in their respective fields of specialisation. We also offer a diverse range of extra-curricular activities and top-rated career services that further boost student employability.
+\n\n\t
+Apart from the very best of international courses, NIU will also introduce students to an attractive living environment that is home to a multicultural community. An international village of sorts. NIU lets them choose from a host of attractive living environments to enrich their social life while balancing responsibilities and pursuing goals.</string>
+    <string name="hostel_fee">1. AB HOSTEL-BOYS
+\n
+\tI. 3 seater (cooler)-60000 per \n\tannum+5000(security)refundable
+\tII. 3 seater (AC)-75000 per \n\tannum+5000(security)refundable
+\n
+2. AS HOSTEL-BOYS
+\n
+\tI. Double Seater-Cooler-70000+5000(Security Refundable)
+\tII. Double Seater-AC-85000+5000(Security Refundable)
+\tIII. Three Seater – Cooler- 60000+5000(Security Refundable)
+\n
+1. LAUREATE -GIRLS
+\n
+\t\tI. 3 seater (AC)-75000 per annum+5000(security)refundable
+\n
+2. Khushboo Apartments-GIRLS
+\n
+\tI. Double Seater-Cooler-60000+5000(Security Refundable)
+\tII. Single Seater-Cooler-70000+5000(Security Refundable)
+\tIII. Double Seater-AC-75000+5000(Security Refundable)
+\tIV. Single Seater-AC-85000+5000(Security Refundable)</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_webview">WebviewActivity</string>
+    <string name="title_activity_news_feeds">NewsFeeds</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_class_list">ClassList</string>
+    <string name="manish">Manish Saraswat\nmanishsuperstar9@gmail.com\n+91-9810483143</string>
+    <string name="title_activity_tea_pro_activity">Teacher\'s Profile</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="link_result">http://sandeeprana011.hostfree.us/result/result.php?table_name=NIU_SET&amp;enroll_no=11SETBTCS3095&amp;sem=7&amp;prf=5187</string>
+    <string name="title_activity_result">Result</string>
+    <string name="notes_heading">Faculty Dashboard</string>
+    <string name="results">Results</string>
+    <string name="updates">Updates</string>
+
+    <string-array name="table_name">
+        <item>School of Architecture</item>
+        <item>School of Education</item>
+        <item>School of Eng. &amp; Tech</item>
+        <item>School of Sciences</item>
+        <item>School of Law</item>
+        <item>School of Jour. &amp; Mass Com.</item>
+        <item>School of Nursing</item>
+        <item>School of Fine Arts</item>
+        <item>School of Liberal Arts</item>
+        <item>School of Defence, Security &amp; Intelligence</item>
+    </string-array>
+
+    <string name="title_activity_admit_card">AdmitCard</string>
+
+</resources>
