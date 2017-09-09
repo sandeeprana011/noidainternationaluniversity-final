@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
                 fragment = new AboutNIUFragment();
                 break;
             case R.id.nav_schools:
-
+                fragment = new SchoolsFragment();
                 break;
             case R.id.nav_academics_free:
                 break;

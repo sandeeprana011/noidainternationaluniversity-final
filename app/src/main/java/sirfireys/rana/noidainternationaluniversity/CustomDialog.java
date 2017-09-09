@@ -24,6 +24,7 @@ import butterknife.ButterKnife;
  */
 
 public class CustomDialog extends DialogFragment {
+    public static final String TAG = "Dial";
     @BindView(R.id.i_image_view)
     ImageView i_image_view;
     @BindView(R.id.t_title)
