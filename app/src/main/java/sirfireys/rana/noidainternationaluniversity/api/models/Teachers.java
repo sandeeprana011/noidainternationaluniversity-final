@@ -30,6 +30,11 @@ public class Teachers {
     @Expose
     private String teacher_id;
 
+    @SerializedName("profile_url")
+    @Expose
+    private String profile_url;
+
+
     public String getPhone() {
         return phone;
     }
@@ -70,4 +75,11 @@ public class Teachers {
         this.teacher_id = teacher_id;
     }
 
+    public String getProfile_url() {
+        return profile_url;
+    }
+
+    public void setProfile_url(String profile_url) {
+        this.profile_url = profile_url;
+    }
 }

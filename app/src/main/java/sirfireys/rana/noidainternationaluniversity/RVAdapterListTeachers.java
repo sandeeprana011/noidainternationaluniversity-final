@@ -1,11 +1,19 @@
 package sirfireys.rana.noidainternationaluniversity;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import sirfireys.rana.noidainternationaluniversity.api.models.Teachers;
 
 /**
@@ -20,25 +28,52 @@ import sirfireys.rana.noidainternationaluniversity.api.models.Teachers;
 public class RVAdapterListTeachers extends RecyclerView.Adapter<RVAdapterListTeachers.Holder> {
 
     ArrayList<Teachers> teachersArrayList;
+    private Context context;
+
+    public RVAdapterListTeachers(Context context) {
+        this.context = context;
+        this.teachersArrayList = new ArrayList<>();
+    }
+
+    public void setTeachersArrayList(ArrayList<Teachers> teachersArrayList) {
+        this.teachersArrayList.clear();
+        if (teachersArrayList != null) {
+            this.teachersArrayList.addAll(teachersArrayList);
+            this.notifyDataSetChanged();
+        }
+    }
 
     @Override
     public RVAdapterListTeachers.Holder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return null;
+        return new Holder(LayoutInflater.from(context).inflate(R.layout.teachers_list_item, parent, false));
     }
 
     @Override
     public void onBindViewHolder(RVAdapterListTeachers.Holder holder, int position) {
+        Teachers teacher = this.teachersArrayList.get(position);
+        if (teacher != null) {
+            Glide.with(context)
+                    .load(teacher.getProfile_url())
+                    .into(holder.i_avatar);
+            holder.t_name.setText(teacher.getName());
+            holder.t_email.setText(teacher.getEmail());
+        }
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return this.teachersArrayList.size();
     }
 
     public class Holder extends RecyclerView.ViewHolder {
+        @BindView(R.id.i_avatar) ImageView i_avatar;
+        @BindView(R.id.t_name) TextView t_name;
+        @BindView(R.id.t_email) TextView t_email;
+
         public Holder(View itemView) {
             super(itemView);
+            ButterKnife.bind(itemView);
         }
     }
 }

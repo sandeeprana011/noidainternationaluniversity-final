@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginTop="7dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left">
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/i_avatar"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/niu"/>
+
+    <TextView
+        android:id="@+id/t_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/i_avatar"
+        android:text="Sandeep Rana"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/t_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_name"
+        android:layout_toRightOf="@+id/i_avatar"
+        android:text="I teach C, C++, Java, Swift"/>
+</RelativeLayout>
