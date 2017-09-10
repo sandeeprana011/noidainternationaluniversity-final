@@ -8,7 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -26,11 +28,14 @@ import sirfireys.rana.noidainternationaluniversity.api.models.Record;
 class RVRecordsAdapter extends RecyclerView.Adapter<RVRecordsAdapter.Holder> {
 
     ArrayList<Record> arrayList;
+    SimpleDateFormat dateFormat;
     private Context context;
+
 
     public RVRecordsAdapter(Context context) {
         this.context = context;
         arrayList = new ArrayList<>();
+        dateFormat = new SimpleDateFormat("dd MMM yyyy");
     }
 
     @Override
@@ -41,11 +46,14 @@ class RVRecordsAdapter extends RecyclerView.Adapter<RVRecordsAdapter.Holder> {
     @Override
     public void onBindViewHolder(Holder holder, int position) {
         Record record = this.arrayList.get(position);
+
         if (record != null) {
+            Date date = new Date(record.getTimestamp());
 //            Glide.with(context)
 //                    .load()
             holder.t_titlefile.setText(record.getTitle());
             holder.t_description.setText(record.getNote());
+            holder.t_timestamp.setText(dateFormat.format(date));
         }
     }
 
@@ -64,6 +72,7 @@ class RVRecordsAdapter extends RecyclerView.Adapter<RVRecordsAdapter.Holder> {
 
         @BindView(R.id.t_description) TextView t_description;
         @BindView(R.id.t_titlefile) TextView t_titlefile;
+        @BindView(R.id.t_timestamp) TextView t_timestamp;
         @BindView(R.id.i_filetype) ImageView i_filetype;
 
         public Holder(View itemView) {
