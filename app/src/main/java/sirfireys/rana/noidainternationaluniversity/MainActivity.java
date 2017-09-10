@@ -92,10 +92,6 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_schools:
                 fragment = new SchoolsFragment();
                 break;
-            case R.id.nav_academics_free:
-                break;
-            case R.id.nav_admission_niu:
-                break;
             case R.id.nav_contact_us:
                 break;
             case R.id.nav_study_material:
@@ -107,10 +103,6 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_faculty_dashboard:
                 break;
             case R.id.nav_results:
-                break;
-            case R.id.nav_updates:
-                break;
-            case R.id.nav_about_developers:
                 break;
         }
 

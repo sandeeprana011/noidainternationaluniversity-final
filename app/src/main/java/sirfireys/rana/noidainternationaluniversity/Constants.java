@@ -12,4 +12,5 @@ package sirfireys.rana.noidainternationaluniversity;
 class Constants {
     public static final java.lang.String TEXT = "textkey";
     public static final java.lang.String RESOURCEKEY = "resourcekey";
+    public static final String TEACHERS = "teachers";
 }

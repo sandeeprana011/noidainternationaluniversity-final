@@ -14,14 +14,14 @@
             android:id="@+id/nav_schools"
             android:icon="@drawable/ic_schools"
             android:title="Schools"/>
-        <item
-            android:id="@+id/nav_academics_free"
-            android:icon="@drawable/ic_academicsfeed"
-            android:title="Academics &amp; Free"/>
-        <item
-            android:id="@+id/nav_admission_niu"
-            android:icon="@drawable/ic_academics"
-            android:title="Admission @ NIU"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_academics_free"-->
+            <!--android:icon="@drawable/ic_academicsfeed"-->
+            <!--android:title="Academics &amp; Free"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_admission_niu"-->
+            <!--android:icon="@drawable/ic_academics"-->
+            <!--android:title="Admission @ NIU"/>-->
         <item
             android:id="@+id/nav_contact_us"
             android:icon="@drawable/ic_contactus"
@@ -46,14 +46,14 @@
             android:id="@+id/nav_results"
             android:icon="@drawable/ic_result"
             android:title="Results"/>
-        <item
-            android:id="@+id/nav_updates"
-            android:icon="@drawable/ic_updates"
-            android:title="Updates"/>
-        <item
-            android:id="@+id/nav_about_developers"
-            android:icon="@drawable/ic_developers"
-            android:title="About Developers"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_updates"-->
+            <!--android:icon="@drawable/ic_updates"-->
+            <!--android:title="Updates"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_about_developers"-->
+            <!--android:icon="@drawable/ic_developers"-->
+            <!--android:title="About Developers"/>-->
     </group>
 
     <item android:title="Communicate">
