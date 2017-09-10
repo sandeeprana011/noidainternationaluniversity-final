@@ -18,4 +18,9 @@ public interface ApiServices {
 
     @GET("teachers")
     Call<ResponseTeachers> getTEachersList();
+
+    @GET("teachers/records")
+    Call<ResponseRecords> getRecordsList(
+            @Query("teacher_id") String teacherId);
+
 }

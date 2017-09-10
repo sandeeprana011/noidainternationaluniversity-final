@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
+import com.google.gson.Gson;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
@@ -30,6 +32,7 @@ public class StudyMaterialFragment extends Fragment implements OnRowClickListene
     @BindView(R.id.progress_bar) ProgressBar progress_bar;
     @BindView(R.id.rv_listteachers) RecyclerView rv_listteachers;
     RVAdapterListTeachers adapter;
+
 
     public StudyMaterialFragment() {
         // Required empty public constructor
@@ -85,7 +88,14 @@ public class StudyMaterialFragment extends Fragment implements OnRowClickListene
     @Override
     public void onClickRow(View view, Teachers teachers, int adapterPosition) {
         if (teachers != null) {
-
+            getFragmentManager().executePendingTransactions();
+            Fragment fragment = new RecordsListFragment();
+            Bundle bundle = new Bundle();
+            Gson gson = new Gson();
+            String strTeachers = gson.toJson(teachers);
+            bundle.putString(Constants.TEACHERS, strTeachers);
+            fragment.setArguments(bundle);
+            getFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment, RecordsListFragment.TAG).commitAllowingStateLoss();
         }
     }
 }
