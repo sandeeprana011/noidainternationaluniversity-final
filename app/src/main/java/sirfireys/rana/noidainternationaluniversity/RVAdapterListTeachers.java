@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import sirfireys.rana.noidainternationaluniversity.models.Teachers;
+import sirfireys.rana.noidainternationaluniversity.api.models.Teachers;
 
 /**
  * Created by sandeeprana on 10/09/17.
