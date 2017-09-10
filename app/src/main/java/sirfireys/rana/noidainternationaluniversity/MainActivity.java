@@ -92,9 +92,10 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_schools:
                 fragment = new SchoolsFragment();
                 break;
-            case R.id.nav_contact_us:
-                break;
             case R.id.nav_study_material:
+                fragment = new StudyMaterialFragment();
+                break;
+            case R.id.nav_contact_us:
                 break;
             case R.id.nav_latest_announcements:
                 break;

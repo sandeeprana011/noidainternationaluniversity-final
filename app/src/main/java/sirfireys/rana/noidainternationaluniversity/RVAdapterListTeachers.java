@@ -26,13 +26,18 @@ import sirfireys.rana.noidainternationaluniversity.api.models.Teachers;
  */
 
 public class RVAdapterListTeachers extends RecyclerView.Adapter<RVAdapterListTeachers.Holder> {
-
     ArrayList<Teachers> teachersArrayList;
     private Context context;
+    private OnRowClickListener onClickListener;
 
     public RVAdapterListTeachers(Context context) {
         this.context = context;
         this.teachersArrayList = new ArrayList<>();
+    }
+
+    public void setOnClickListener(OnRowClickListener onClickListener) {
+
+        this.onClickListener = onClickListener;
     }
 
     public void setTeachersArrayList(ArrayList<Teachers> teachersArrayList) {
@@ -66,14 +71,25 @@ public class RVAdapterListTeachers extends RecyclerView.Adapter<RVAdapterListTea
         return this.teachersArrayList.size();
     }
 
-    public class Holder extends RecyclerView.ViewHolder {
+
+
+    public class Holder extends RecyclerView.ViewHolder implements View.OnClickListener {
+
         @BindView(R.id.i_avatar) ImageView i_avatar;
         @BindView(R.id.t_name) TextView t_name;
         @BindView(R.id.t_email) TextView t_email;
 
         public Holder(View itemView) {
             super(itemView);
-            ButterKnife.bind(itemView);
+            ButterKnife.bind(this, itemView);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            if (onClickListener != null) {
+                onClickListener.onClickRow(view, teachersArrayList.get(getAdapterPosition()), getAdapterPosition());
+            }
         }
     }
 }

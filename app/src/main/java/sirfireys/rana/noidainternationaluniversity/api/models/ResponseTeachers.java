@@ -17,20 +17,20 @@ import java.util.ArrayList;
 public class ResponseTeachers {
     @SerializedName("status")
     @Expose
-    private String status;
+    private int status;
     @SerializedName("message")
     @Expose
     private String message;
-    @SerializedName("order_list")
+    @SerializedName("teachers")
     @Expose
 
-    private ArrayList<Teachers> order_list;
+    private ArrayList<Teachers> teachersArrayList;
 
-    public String getStatus() {
+    public int getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 
@@ -43,11 +43,11 @@ public class ResponseTeachers {
     }
 
 
-    public ArrayList<Teachers> getOrder_list() {
-        return order_list;
+    public ArrayList<Teachers> getTeachersArrayList() {
+        return teachersArrayList;
     }
 
-    public void setOrder_list(ArrayList<Teachers> order_list) {
-        this.order_list = order_list;
+    public void setTeachersArrayList(ArrayList<Teachers> teachersArrayList) {
+        this.teachersArrayList = teachersArrayList;
     }
 }

@@ -17,5 +17,5 @@ import sirfireys.rana.noidainternationaluniversity.api.models.ResponseTeachers;
 public interface ApiServices {
 
     @GET("teachers")
-    Call<ResponseTeachers> getLyrics();
+    Call<ResponseTeachers> getTEachersList();
 }
