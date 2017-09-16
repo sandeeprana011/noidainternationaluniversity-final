@@ -2,7 +2,8 @@ package sirfireys.rana.noidainternationaluniversity;
 
 import android.view.View;
 
-import sirfireys.rana.noidainternationaluniversity.api.models.Teachers;
+import com.zilideus.niucommons.api.models.Teachers;
+
 
 /**
  * Created by sandeeprana on 10/09/17.

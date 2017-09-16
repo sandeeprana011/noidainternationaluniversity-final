@@ -12,16 +12,17 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
 import com.google.gson.Gson;
+import com.zilideus.niucommons.RVRecordsAdapter;
+import com.zilideus.niucommons.api.ApiServices;
+import com.zilideus.niucommons.api.ApiUtil;
+import com.zilideus.niucommons.api.ResponseRecords;
+import com.zilideus.niucommons.api.models.Teachers;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import sirfireys.rana.noidainternationaluniversity.api.ApiServices;
-import sirfireys.rana.noidainternationaluniversity.api.ApiUtil;
-import sirfireys.rana.noidainternationaluniversity.api.ResponseRecords;
-import sirfireys.rana.noidainternationaluniversity.api.models.Teachers;
 
 
 /**

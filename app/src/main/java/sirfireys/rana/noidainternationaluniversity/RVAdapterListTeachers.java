@@ -9,12 +9,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.zilideus.niucommons.api.models.Teachers;
 
 import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import sirfireys.rana.noidainternationaluniversity.api.models.Teachers;
 
 /**
  * Created by sandeeprana on 10/09/17.
