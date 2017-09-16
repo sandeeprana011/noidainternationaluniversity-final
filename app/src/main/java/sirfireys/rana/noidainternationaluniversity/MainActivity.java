@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
 
         nav_view.setNavigationItemSelectedListener(this);
+        HomeFragment fragment = new HomeFragment();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment, HomeFragment.TAG).commitAllowingStateLoss();
+
+
     }
 
     @Override
@@ -97,14 +101,14 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_contact_us:
                 break;
-            case R.id.nav_latest_announcements:
-                break;
-            case R.id.nav_admit_card:
-                break;
-            case R.id.nav_faculty_dashboard:
-                break;
-            case R.id.nav_results:
-                break;
+//            case R.id.nav_latest_announcements:
+//                break;
+//            case R.id.nav_admit_card:
+//                break;
+//            case R.id.nav_faculty_dashboard:
+//                break;
+//            case R.id.nav_results:
+//                break;
         }
 
         transaction.replace(R.id.fragment_container, fragment, HomeFragment.TAG);

@@ -30,22 +30,22 @@
             android:id="@+id/nav_study_material"
             android:icon="@drawable/ic_study"
             android:title="Study Material"/>
-        <item
-            android:id="@+id/nav_latest_announcements"
-            android:icon="@drawable/ic_latestannouncement"
-            android:title="Latest Announcements"/>
-        <item
-            android:id="@+id/nav_admit_card"
-            android:icon="@drawable/ic_admitcard"
-            android:title="Admit Card"/>
-        <item
-            android:id="@+id/nav_faculty_dashboard"
-            android:icon="@drawable/ic_faculty"
-            android:title="Faculty Dashboard"/>
-        <item
-            android:id="@+id/nav_results"
-            android:icon="@drawable/ic_result"
-            android:title="Results"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_latest_announcements"-->
+            <!--android:icon="@drawable/ic_latestannouncement"-->
+            <!--android:title="Latest Announcements"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_admit_card"-->
+            <!--android:icon="@drawable/ic_admitcard"-->
+            <!--android:title="Admit Card"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_faculty_dashboard"-->
+            <!--android:icon="@drawable/ic_faculty"-->
+            <!--android:title="Faculty Dashboard"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_results"-->
+            <!--android:icon="@drawable/ic_result"-->
+            <!--android:title="Results"/>-->
         <!--<item-->
             <!--android:id="@+id/nav_updates"-->
             <!--android:icon="@drawable/ic_updates"-->
