@@ -15,3 +15,4 @@ Noida International University
  ## [NIU Commons Repository](https://github.com/sandeeprana011/niu-teachers.git "niucommons is a module that contains api calls and common functionalities")<br>
  NIUCommons is for common functionalities between NIUTeachers and NIU App
  
+ To update git modules run <br> `git submodule foreach git pull origin master`
