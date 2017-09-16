@@ -3,10 +3,10 @@ Noida International University
 ### Android app for Noida International University
 
  #### Third party libraries used
- Butterknife<br>
- Retrofit2<br>
- Gson - Retrofit<br>
- Glide
+ * Butterknife<br>
+ * Retrofit2<br>
+ * Gson - Retrofit<br>
+ * Glide
  
  ## Other related repos
  ## [NIU Teachers Repository](https://github.com/sandeeprana011/niu-teachers.git "NIU Teachers")<br>
