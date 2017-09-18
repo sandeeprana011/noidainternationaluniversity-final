@@ -1,2 +1,1 @@
-include ':app', ':niucommons'
-project(':niucommons').projectDir = new File('niu-commons')
+include ':app', ':niu-commons'

@@ -32,7 +32,7 @@ dependencies {
     })
 
 
-    compile project(":niucommons")
+    compile project(":niu-commons")
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:support-v4:26.+'
     compile 'com.android.support:design:26.+'
