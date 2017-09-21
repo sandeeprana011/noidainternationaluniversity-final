@@ -27,7 +27,7 @@ import retrofit2.Response;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class StudyMaterialFragment extends Fragment implements OnRowClickListener {
+public class StudyMaterialFragment extends Fragment implements OnTeacherRowClickListener {
 
     @BindView(R.id.progress_bar) ProgressBar progress_bar;
     @BindView(R.id.rv_listteachers) RecyclerView rv_listteachers;

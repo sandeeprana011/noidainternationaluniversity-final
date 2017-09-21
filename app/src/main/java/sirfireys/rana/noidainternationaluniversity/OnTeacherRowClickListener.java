@@ -14,6 +14,6 @@ import com.zilideus.niucommons.api.models.Teachers;
  * choosing for companies
  */
 
-interface OnRowClickListener {
+interface OnTeacherRowClickListener {
     void onClickRow(View view, Teachers teachers, int adapterPosition);
 }

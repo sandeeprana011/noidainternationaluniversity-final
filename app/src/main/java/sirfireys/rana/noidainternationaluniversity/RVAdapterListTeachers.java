@@ -28,14 +28,14 @@ import butterknife.ButterKnife;
 public class RVAdapterListTeachers extends RecyclerView.Adapter<RVAdapterListTeachers.Holder> {
     ArrayList<Teachers> teachersArrayList;
     private Context context;
-    private OnRowClickListener onClickListener;
+    private OnTeacherRowClickListener onClickListener;
 
     public RVAdapterListTeachers(Context context) {
         this.context = context;
         this.teachersArrayList = new ArrayList<>();
     }
 
-    public void setOnClickListener(OnRowClickListener onClickListener) {
+    public void setOnClickListener(OnTeacherRowClickListener onClickListener) {
 
         this.onClickListener = onClickListener;
     }
